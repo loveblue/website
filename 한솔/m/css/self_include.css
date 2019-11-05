@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+/*header*/
+#header{
+	margin:10px 20px;
+	position:relative;
+}
+#header h1{
+	width:70px;
+	height:28px;
+	background:url(../images/sp_com.png) no-repeat;
+	text-indent:-9999px;
+}
+#header h1 a{}
+
+.panel{
+	position:absolute;
+	top:20%;
+	right:0;
+}
+.panel a{}
+.panel a:before, .panel span{
+	content:"";
+	display:block;
+	width:22px;
+	height:2px;
+	background:#333;
+}
+.panel a:after{
+	content:"";
+	display:block;
+	width:18px;
+	height:2px;
+	background:#333;
+}
+.panel span{
+	margin:4px 0;
+	text-indent:-9999px;
+}
+
+/*footer*/
+#footer{
+	text-align:center;	
+}
+
+.fTop{
+	background:#383f43;
+}
+.fInfo{
+	padding:6% 9%;
+	display:inline-block;
+}
+.fInfo li{
+	float:left;
+}
+.fInfo li:after{
+	content:"";
+	display:inline-block;
+	width:1px;
+	height:10px;
+	background:#666;
+	margin:0 5px;
+}
+.fInfo li:last-child:after{
+	display:none;
+}
+.fInfo a{
+	color:#fff;
+}
+
+.fCs{
+	margin:0 20px;
+	text-align:center;
+	padding-bottom:20px;
+}
+.fCs div{
+	float:left;
+}
+
+.cs{
+	width:180px;
+	background:#2a3033;
+	padding:20px 15px;
+	color:#fff;
+	font-size:13px;
+	box-sizing:border-box;
+}
+.cs p{}
+.cs span{
+	padding-left:10px;
+}
+.familySite{}
+
+.fBottom{
+	background:#4c5459;
+}
+.fBottom h4{
+	color:#fff;
+	font-size:12px;
+	font-weight:normal;
+	text-align:center;
+	padding:10% 5%;
+}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/*기초*/
+body, h1, h2, h3, h4, h5, h6, p, dl, dd{
+	margin:0;
+}
+
+ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+	color:#000;
+}
+
+.cf:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+#wrap{
+	width:100%;
+}
